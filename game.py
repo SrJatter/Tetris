@@ -142,7 +142,7 @@ while running:
     keys = pygame.key.get_pressed()
     print_piece(formas[form][rotation], x, y)
     pygame.display.flip()
-    time.sleep(0.3)
-    if y != 260:
-        y += 20
+    time.sleep(0.1)
+    #if y != 260:
+    #    y += 20
 pygame.quit()
